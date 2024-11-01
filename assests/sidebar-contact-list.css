@@ -1,0 +1,119 @@
+/*
+plugin name: Sidebar Contact List
+plugin uri: http://princeboss.com/
+Description: This plugin will create a sidebar widget for contact list.
+Author: Prince Ahmed
+Author uri: http://princeboss.com/
+Version: 1.0
+*/
+ul.sidebar-contact-list{
+	
+}
+ul.sidebar-contact-list table{
+    margin: -5px -10px -12px -10px;
+    padding: 8px 5px;
+	border-collapse: collapse;
+}
+ul.sidebar-contact-list tr{
+	
+}
+
+ul.sidebar-contact-list tr td{
+	vertical-align: top;
+	border-bottom: 1px solid cadetblue;
+	padding: 5px 0px 5px 5px;
+}
+.sidebar-contact-list-body{
+	background: #ddd;
+    padding: 10px;
+}
+.sidebar-contact-list-tools{
+	position: relative;
+    display: flex;
+    align-items: center;
+	background: white;
+    margin: -8px;
+    padding: 10px 10px 10px 0;
+}
+
+
+.sidebar-contact-list-tools span{
+	position: absolute;
+    right: 5px;
+	font-weight: bold;
+}
+
+.sidebar-contact-list img{
+	max-width: 100%;
+	    position: relative;
+    right: 5px
+}
+.sidebar-contact-list label{
+	font-weight: 800;
+}
+
+ul.sidebar-contact-list .sidebar-contact-list-container{
+	display: none;
+	margin-top: 10px;
+    padding-top: 10px;
+	width: 100%;
+}
+.sidebar-contact-list .btn,.sidebar-contact-list + .btn{
+	display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.sidebar-contact-list .btn-primary{
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.sidebar-contact-list .btn-danger{
+	color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.sidebar-contact-list a,.sidebar-contact-list + a{
+	text-decoration: none;
+	padding: 5px 20px;
+    margin: 15px 5px;
+}
+.sidebar-contact-list + .btn-success{
+	margin-bottom: 20px;
+    padding: 8px;
+	font-weight: bold;
+	background-color: #5cb85c;
+}
+
+a.add-img, a.remove-img{
+    padding: 5px 12px;
+    margin: 2px 3px;
+}
+.sidebar-contact-list-tools a{
+	margin: 0 10px;
+}
+.output-settings{
+	margin-bottom: 20px;
+    background: #ddd;
+    padding: 10px 0 20px 20px;
+}
+.output-settings input{
+	
+}
+.img-size input{
+	width: 40%;
+}
